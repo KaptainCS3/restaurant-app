@@ -19,9 +19,7 @@ const App = () => (
             <Nav />
             <Welcome />
             <About />
-            <>
             <CardContainer />
-            </>
             <Footer />
           </div>
         }
