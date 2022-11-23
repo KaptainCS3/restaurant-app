@@ -1,0 +1,47 @@
+.menu__item{
+    width: 48%;
+    height: 30vh;
+}
+.discover__sub{
+    color: red;
+    font-size: 1.5em;
+}
+.para__1{
+    padding-top: 2.5%;
+    padding-bottom: 0.8%;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.para__1::after, .para__2::after{
+    content: "";
+    width: 23%;
+    height: 1px;
+    background: #999;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 0.5%;
+}
+.para__1::before{
+    content: "$40";
+    margin-top: 0.3%;
+    float: right;
+}
+.para__2::before{
+    content: "$40";
+    float: right;
+    margin-top: 0.3%;
+}
+.para__2{
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-bottom: 0.8%;
+}
+.small__1{
+    padding-bottom: 1%;
+}
+.small__1, .small__2{
+    display: inline-block;
+    font-size: 0.9em;
+    color: #999;
+
+}
