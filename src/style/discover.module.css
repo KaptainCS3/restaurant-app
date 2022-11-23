@@ -1,0 +1,24 @@
+.discover__container{
+    width: 100%;
+    padding: 0 5%;
+    height: 100vh;
+}
+.discover__main, .discover__heading{
+    text-align: center;
+}
+.discover__heading{
+    padding: 1.5% 0;
+    font-size: 1.5em;
+    color: red;
+    font-weight: 700;
+}
+.discover__main{
+    padding-bottom: 5%;
+    font-size: 2em;
+}
+.discover__menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
