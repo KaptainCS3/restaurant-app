@@ -1,0 +1,32 @@
+.menu__gallery{
+    width: 100%;
+    height: 100vh;
+     padding: 0 5%;
+}
+.gallery__heading{
+    font-size: 1.5em;
+    color: #f00;
+}
+.gallery__main{
+    padding-top: 1%;
+    font-size: 2.5em;
+}
+.nav__tab{
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    align-items: center;
+}
+.gallery__links{
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    font-family: "Robot", sans-serif;
+}
+.btn__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: flex-end; */
+  background: rgb(255, 175, 71);
+}
