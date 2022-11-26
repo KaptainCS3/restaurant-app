@@ -19,6 +19,7 @@ const About = () => {
           voluptates perspiciatis aspernatur! Quod fuga nulla culpa?
           Voluptatibus, dolores.
         </p>
+        
         <button className={style.direction}>Get Direction &gt;</button>
       </div>
     </section>
