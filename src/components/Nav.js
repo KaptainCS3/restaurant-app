@@ -8,7 +8,7 @@ const Nav = () => {
       {/* Nav logo section */}
       <div className={style.nav__logo}>
         <h1>
-          <span>The</span> Restro
+          <span>The</span> Kapstro
         </h1>
       </div>
 
