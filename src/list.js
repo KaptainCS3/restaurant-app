@@ -1,5 +1,128 @@
-export default[
-   {
-    images: ""
-   }
-]
+export default [
+  {
+    id: 1,
+    breakfast: {
+      images: [
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+      ],
+    },
+  },
+  {
+    id: 2,
+    salads: {
+      images: [
+        "/pexels-cats-coming-406152.jpg",
+        "/pexels-dana-tentis-1213710.jpg",
+        "/pexels-iina-luoto-1211887.jpg",
+        "/pexels-julie-aagaard-2097090.jpg",
+        "/pexels-marianna-ole-764925.jpg",
+        "/pexels-pixabay-56014.jpg",
+        "/pexels-the-lazy-artist-gallery-1332313.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+      ],
+    },
+  },
+  {
+    id: 3,
+    meatFish: {
+      images: [
+        "/pexels-airam-datoon-8792899.jpg",
+        "/pexels-deane-bayas-14062100.jpg",
+        "/pexels-deane-bayas-14062111.jpg",
+        "/pexels-ruslan-khmelevsky-11198542.jpg",
+        "/pexels-ruslan-khmelevsky-11198561.jpg",
+        "/pexels-towfiqu-barbhuiya-12197308.jpg",
+        "/pexels-mali-maeder-42168.jpg",
+        "/pexels-kampus-production-8629091.jpg",
+        "/pexels-алекке-блажин-11244927.jpg",
+        "/pexels-алекке-блажин-11244937.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+      ],
+    },
+  },
+  {
+    id: 4,
+    soups: {
+      images: [
+        "/pexels-alesia-kozik-6072108.jpg",
+        "/pexels-anna-pyshniuk-4103375.jpg",
+        "/pexels-cats-coming-1731535.jpg",
+        "/pexels-david-abbram-3702434.jpg",
+        "/pexels-jana-ohajdova-11033944.jpg",
+        "/pexels-momo-king-5409015.jpg",
+        "/pexels-momo-king-5409027.jpg",
+        "/pexels-naim-benjelloun-1618925.jpg",
+        "/pexels-pixabay-262947.jpg",
+        "/pexels-rodnae-productions-6646355.jpg",
+        "/pexels-roman-odintsov-4871185.jpg",
+        "/pexels-valeriia-harbuz-12968279.jpg",
+        "/pexels-votsis-panagiotis-3493579.jpg",
+        "/.jpg",
+      ],
+    },
+  },
+  {
+    id: 5,
+    dessets: {
+      images: [
+        "/pexels-abhinav-goswami-291528.jpg",
+        "/pexels-alexander-grey-1191639.jpg",
+        "/pexels-ash-376464.jpg",
+        "/pexels-chokniti-khongchum-2280545.jpg",
+        "/pexels-cottonbro-studio-3992131.jpg",
+        "/pexels-cottonbro-studio-3992134.jpg",
+        "/pexels-david-disponett-2161643.jpg",
+        "/pexels-ella-olsson-3026804.jpg",
+        "/pexels-ella-olsson-3026810.jpg",
+        "/pexels-jess-bailey-designs-913136.jpg",
+        "/pexels-jhon-marquez-2373520.jpg",
+        "/pexels-marta-dzedyshko-2067396.jpg",
+        "/pexels-quang-nguyen-vinh-2144112.jpg",
+        "/pexels-solodsha-9008995.jpg",
+      ],
+    },
+  },
+  {
+    id: 6,
+    drinks: {
+      images: [
+        "/pexels-ainis-jankauskas-169391.jpg",
+        "/pexels-alexander-mils-2045362.jpg",
+        "/pexels-bich-tran-2362391.jpg",
+        "/pexels-cottonbro-studio-4667081.jpg",
+        "/pexels-fox-723129.jpg",
+        "/pexels-maria-pop-339696.jpg",
+        "/pexels-maria-pop-342971.jpg",
+        "/pexels-marta-dzedyshko-2775860.jpg",
+        "/pexels-riyas-paloli-588575.jpg",
+        "/pexels-valeria-boltneva-1200348.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+        "/.jpg",
+      ],
+    },
+  },
+];
