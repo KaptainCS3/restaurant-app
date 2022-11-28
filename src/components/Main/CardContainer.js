@@ -9,10 +9,12 @@ const CardContainer = () => {
   });
   return (
     <section className={style.feature__food}>
+      <div className={style.wrapper}>
       <h3 className={style.explore}>Explore</h3>
       <div className={style.food__container}>
         <h2 className={style.food__heading}>Our Featured Food</h2>
         <Paging />
+      </div>
       </div>
       <div className={style.food__container__list}>
       {cardData}
