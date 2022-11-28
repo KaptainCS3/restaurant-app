@@ -1,0 +1,17 @@
+.customer__container{
+    margin-top: 7%;
+    padding-left:  5%;
+    min-height: 100vh;
+    background: #f3f3f3;
+}
+.customer__heading, .customer__main{
+    text-align: center;
+}
+.customer__heading{
+    font-size: 1.5em;
+    color: red;
+    padding: 3.5% 0;
+}
+.customer__main{
+    font-size: 2em;
+}
