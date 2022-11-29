@@ -1,6 +1,7 @@
 import React from 'react'
 
-const BreakFast = () => {
+const BreakFast = (props) => {
+   console.log(props.data)
   return (
     <div>BreakFast</div>
   )
