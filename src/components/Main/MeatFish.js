@@ -1,8 +1,11 @@
 import React from 'react'
 
-const MeatFish = () => {
+const MeatFish = (props) => {
+  console.log(props.data);
   return (
-    <div>MeatFish</div>
+    <div>
+      
+    </div>
   )
 }
 
