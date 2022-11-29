@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Desserts = () => {
+const Desserts = (props) => {
+  console.log(props.data)
   return (
-    <div>Desserts</div>
+    <div>
+
+    </div>
   )
 }
 
