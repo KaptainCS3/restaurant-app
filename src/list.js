@@ -43,7 +43,7 @@ export default [
   },
   {
     id: 3,
-    meatFish: {
+    meatfish: {
       images: [
         "/pexels-airam-datoon-8792899.jpg",
         "/pexels-deane-bayas-14062100.jpg",
@@ -85,7 +85,7 @@ export default [
   },
   {
     id: 5,
-    dessets: {
+    desserts: {
       images: [
         "/pexels-abhinav-goswami-291528.jpg",
         "/pexels-alexander-grey-1191639.jpg",
