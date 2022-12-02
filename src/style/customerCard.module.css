@@ -1,0 +1,70 @@
+
+.card__customer{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    padding: 0 10px;
+    margin-right: 60px;
+    flex-direction: column;
+    border: 1px solid;
+    background: #fff;
+}
+
+.avarta__rate{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avarta__rate img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* .card__customer{
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.avarta__rate{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border: 1px solid;
+    top: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 28%;
+    border-radius: 50%;
+    z-index: 100;
+    background: #f3f3f3;
+}
+.avarta__inner{
+    width: 90px;
+    height: 90px;
+    border: 2px solid #f00;
+}
+.avarta__inner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.description{
+    width: 75%;
+    padding: 20% 0;
+} 
+*/
