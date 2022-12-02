@@ -15,3 +15,7 @@
 .customer__main{
     font-size: 2em;
 }
+.div__el{
+    display: flex;
+    width: 100%;
+}
