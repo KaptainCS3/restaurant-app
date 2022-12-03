@@ -1,0 +1,10 @@
+.book{
+    position: relative;
+    height: 100vh;
+    background: url("../assets/pexels-ella-olsson-3026808.jpg");
+    background-size: cover;
+}
+
+.form__container{
+    display: flex;
+}
