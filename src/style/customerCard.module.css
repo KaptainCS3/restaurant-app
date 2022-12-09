@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .card__customer{
     width: 40%;
     height: 300px;

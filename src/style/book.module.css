@@ -1,8 +1,9 @@
 .book{
     position: relative;
-    min-height: 100vh;
-    background: url("../assets/pexels-ella-olsson-3026808.jpg");
+    height: 100vh;
+    background: url("../assets/pexels-rajesh-tp-1633578.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 0 5%;
 }
 
