@@ -4,12 +4,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Welcome from "./components/Main/Welcome";
 import About from "./components/Main/About";
-import Card from "./components/Main/Card";
-import data from "./data";
 import CardContainer from "./components/Main/CardContainer";
-
-const cardData = data.map((el) => {});
+import Discover from "./components/Main/Discover";
+import GalleryMenu from "./components/Main/GalleryMenu";
+import Customer from "./components/Main/Customer";
+import BookMeal from "./components/Main/BookMeal";
 const App = () => (
+  
   <BrowserRouter>
     <Routes>
       <Route
@@ -20,6 +21,10 @@ const App = () => (
             <Welcome />
             <About />
             <CardContainer />
+            <Discover />
+            <GalleryMenu />
+            <Customer />
+            <BookMeal />
             <Footer />
           </div>
         }
