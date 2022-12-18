@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import style from "../style/nav.module.css";
 const Nav = () => {
@@ -19,7 +21,9 @@ const Nav = () => {
         <Link className={style.nav__links}>Specialties</Link>
         <Link className={style.nav__links}>Reservation</Link>
         <Link className={style.nav__links}>Contact</Link>
-        <Link className={style.nav__links}>Q</Link>
+        <Link className={style.nav__links}>
+          <FontAwesomeIcon icon={faMagnifyingGlass} className={style.icon} />
+        </Link>
       </div>
     </nav>
   );
