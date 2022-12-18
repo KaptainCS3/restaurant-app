@@ -1,5 +1,7 @@
-import React from 'react'
-import style from "../../style/about.module.css"
+import React from "react";
+import style from "../../style/about.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   return (
     <section className={style.welcome__container}>
@@ -19,11 +21,13 @@ const About = () => {
           voluptates perspiciatis aspernatur! Quod fuga nulla culpa?
           Voluptatibus, dolores.
         </p>
-        
-        <button className={style.direction}>Get Direction &gt;</button>
+
+        <button className={style.direction}>
+          Get Direction <FontAwesomeIcon icon={faArrowRight} />
+        </button>
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;
