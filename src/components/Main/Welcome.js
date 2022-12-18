@@ -3,6 +3,7 @@ import style from "../../style/welcome.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faTwitter, faGooglePlusG } from "@fortawesome/free-brands-svg-icons";
 import Fade from "react-reveal"
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Welcome = () => {
   return (
     <Fade>
@@ -13,7 +14,9 @@ const Welcome = () => {
           <div className={style.left__container}>
             <h3 className={style.welcome__text}>Discover your taste</h3>
             <h1 className={style.hero__text}>Eat healthy and Natural Food</h1>
-            <button className={style.btn__discover}>Discover Menu &gt;</button>
+            <button className={style.btn__discover}>
+              Discover Menu <FontAwesomeIcon icon={faArrowRight} />
+            </button>
           </div>
           {/* </Fade> */}
           {/* image container */}
@@ -24,8 +27,12 @@ const Welcome = () => {
           </div>
           {/* arrow indicator section */}
           <div className={style.arrow__indicator}>
-            <div className={style.arrow__left}>&lt;</div>
-            <div className={style.arrow__right}>&gt;</div>
+            <div className={style.arrow__left}>
+              <FontAwesomeIcon icon={faArrowLeft} />
+            </div>
+            <div className={style.arrow__right}>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </div>
           </div>
           {/* social icon section */}
           <div className={style.social__icons}>
