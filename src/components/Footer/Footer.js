@@ -1,6 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "../../style/footer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
+  const [newsMail, setNewsMail] = useState({
+    emailSub: "",
+  });
+  console.log(newsMail);
+  const handleChange = (event) => {
+    console.log(event);
+    const { name, value } = event.target;
+    setNewsMail((prevEmail) => ({
+      ...prevEmail,
+      [name]: value,
+    }));
+  };
   return (
     <footer className={style.footer__container}>
       <h1 className={style.hero__footer}>
@@ -9,13 +23,26 @@ const Footer = () => {
       <section className={style.footer__main}>
         <div className={style.about}>
           <h2 className={style.sub__heading}>About us</h2>
-          <p className={style.description}>Sed ut perspicialis unde omnis iste natus error sit vluptatem accusan0tium doloremque laudantium, totam rem aperiam,</p>
+          <p className={style.description}>
+            Sed ut perspicialis unde omnis iste natus error sit vluptatem
+            accusan0tium doloremque laudantium, totam rem aperiam,
+          </p>
         </div>
         <div className={style.subscribe}>
           <h2 className={style.sub__heading}>Get News & Offers</h2>
           <form className={style.submit__offer}>
-            <input className={style.email} placeholder="Enter your email" id="email_offers"/>
-            <button className={style.btn__submit}></button>
+            <input
+              className={style.email}
+              placeholder="Enter your email"
+              id="email_offers"
+              onChange={handleChange}
+              type="email"
+              name="emailSub"
+              value={newsMail.emailSub}
+            />
+            <button className={style.btn__submit}>
+              <FontAwesomeIcon icon={faArrowRight} style={{ color: "#fff" }} />
+            </button>
           </form>
         </div>
         <div className={style.contact}>
