@@ -1,5 +1,8 @@
+[
 {
-    "breakfast": [{
+    "id": 0,
+    "breakfast": 
+    [{
       "images": [
         "/.jpg",
         "/.jpg",
@@ -17,8 +20,12 @@
         "/.jpg"
       ]
     }
-  ],
-    "salads": [{
+  ]
+},
+{
+    "id": 1,
+    "salads": 
+    [{
       "images": [
         "/pexels-cats-coming-406152.jpg",
         "/pexels-dana-tentis-1213710.jpg",
@@ -36,7 +43,10 @@
         "/.jpg"
       ]
     }
-    ],
+    ]
+},
+{
+  "id": 2,
     "meatfish": [{
       "images": [
         "/pexels-airam-datoon-8792899.jpg",
@@ -55,7 +65,10 @@
         "/.jpg"
       ]
     }
-    ],
+    ]
+},
+{
+  "id": 3,
     "soups": [{
       "images": [
         "/pexels-alesia-kozik-6072108.jpg",
@@ -74,7 +87,10 @@
         "/.jpg"
       ]
     }
-    ],
+    ]
+},
+{
+  "id": 4,
     "desserts": [{
       "images": [
         "/pexels-abhinav-goswami-291528.jpg",
@@ -93,7 +109,10 @@
         "/pexels-solodsha-9008995.jpg"
       ]
     }
-    ],
+    ]
+},
+{
+  "id": 5,
     "drinks": [{
       "images": [
         "/pexels-ainis-jankauskas-169391.jpg",
@@ -114,3 +133,4 @@
     }
     ]
 }
+]
