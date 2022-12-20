@@ -49,18 +49,28 @@ span{
 .email{
     padding: 12px;
     width: 65%;
-    border: 1px solid #f3f3f3;
+    border: 1px solid #fff;
     background: none;
     border-right: none;
+    outline: none;
+    color: #fff;
+}
+.email::placeholder{
+    color: #ccc;
 }
 .btn__submit{
-    width: 10%;
+    width: 12%;
     border: 1px solid transparent;
     background: rgb(236, 156, 6);
 }
-::placeholder{
-    color: #fff;
+
+.error__message{
+    position: absolute;
+    top: 60%;
+    font-size: 0.8em;
+    color: #f96262;
 }
+
 .locations{
     display: grid;
     grid-template-columns: auto auto;
