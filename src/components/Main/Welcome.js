@@ -1,4 +1,3 @@
-import React from "react";
 import style from "../../style/welcome.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faTwitter, faGooglePlusG } from "@fortawesome/free-brands-svg-icons";
