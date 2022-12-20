@@ -16,12 +16,23 @@
 }
 .nav__bar{
     font-family: "Poppins", sans-serif;
-    width: 50%;
+    width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .nav__links{
     color: rgb(10, 6, 6);
     text-decoration: none;
-    font-size: 1em;
+    font-size: .9em;
+    color: #fff;
+}
+.nav__bar:focus{
+    border-bottom-width: 10px;
+    /* border-bottom-height: 10px; */
+    border-radius: 50%;
+}
+.icon{
+    /* width: 24px;
+    height: 24px;
+    background: #000; */
 }
