@@ -20,7 +20,7 @@
 
 .container__right{
     margin-top: 9.3%;
-    background: rgb(32, 32, 32);
+    background: #2f2838;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -48,6 +48,7 @@
 }
 .description{
     font-size: 1.2em;
+    color: #fff;
 }
 
 .direction{
