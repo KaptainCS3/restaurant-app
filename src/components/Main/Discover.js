@@ -1,4 +1,3 @@
-import React from "react";
 import style from "../../style/discover.module.css";
 import menu from "../../menu";
 import Menu from "../Main/Menu";
