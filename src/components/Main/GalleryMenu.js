@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import style from "../../style/galleryMenu.module.css";
 import list from "../../list";
 import tabs from "../../tabs";
