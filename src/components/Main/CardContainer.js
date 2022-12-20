@@ -8,8 +8,9 @@ const CardContainer = () => {
   const carousel = useRef();
 
   useEffect(() => {
-    console.log(carousel.current.scrollWidth, carousel.current.offSetWidth);
-    setWidth(carousel.current.scrollWidth - carousel.current.offSetWidth);
+    alert(carousel.current.scrollWidth)
+    console.log(carousel.current);
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
 
   return (
