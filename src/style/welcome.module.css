@@ -44,7 +44,7 @@
     width: 33%;
     padding: 3% 2%;
     border: none;
-    background: rgb(255, 175, 71);
+    background: rgb(236, 156, 6);
     color: #fff;
     cursor: pointer;
 }
@@ -87,7 +87,7 @@
     align-items: center;
 }
 .icons{
-    color: rgb(255, 175, 71);
+    color: rgb(236, 156, 6);
 }
 
 .social__icons::before{
@@ -103,7 +103,7 @@
 .icons__container{
     width: 25px;
     height: 25px;
-    border: 2px solid rgb(255, 175, 71);
+    border: 2px solid rgb(236, 156, 6);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@
 }
 .arrow__right{
     background: rgb(32, 32, 32);
-    color: rgb(255, 175, 71);
+    color: rgb(236, 156, 6);
 }
 
 .pagenation__btn{
