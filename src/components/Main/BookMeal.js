@@ -20,7 +20,7 @@ const Book = () => {
   return (
     <section className={style.book}>
       <h3 className={style.heading}>Let's </h3>
-      <h2 className={style.sub__headingx}>Book a Table</h2>
+      <h2 className={style.sub__heading}>Book a Table</h2>
       <form className={style.form__container}>
         <div className={style.form__control}>
           <label htmlFor="date">Date</label>
@@ -67,8 +67,9 @@ const Book = () => {
             value={bookedMeal.email}
           />
         </div>
+        <span className={style.error__message} id="error__message"></span>
       </form>
-      <button type="submit" className={style.available__btn}>
+      <button type="submit" className={style.btn__available}>
         Check Availability <FontAwesomeIcon icon={faArrowRight} />
       </button>
     </section>
