@@ -1,4 +1,3 @@
-import React from 'react'
 import style from '../../style/menu.module.css';
 const Menu = (props) => {
   return (
