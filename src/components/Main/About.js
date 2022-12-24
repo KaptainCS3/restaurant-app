@@ -1,4 +1,3 @@
-import React from "react";
 import style from "../../style/about.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
