@@ -2,7 +2,7 @@
   const card = {
     marginRight: 50,
     marginTop: 80,
-    minWidth: "35%"
+    minWidth: "10%"
   }
   // const cartArray = ["pexels-nishant-aneja-2955819.jpg","pexels-rajesh-tp-1633578.jpg"];
   return (
