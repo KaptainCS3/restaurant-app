@@ -5,7 +5,7 @@ import Fade from "react-reveal"
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Welcome = () => {
   return (
-    <Fade>
+    <Fade bottom>
       <main>
         <section className={style.LandingPage}>
           {/*content and hero section */}
