@@ -1,10 +1,14 @@
 import style from "../../style/about.module.css";
+import Slide from "react-reveal"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   return (
     <section className={style.welcome__container}>
-      <div className={style.container__left}></div>
+      <Slide left>
+        <div className={style.container__left}></div>
+      </Slide>
+      <Slide right>
       <div className={style.container__right}>
         <h4 className={style.title__heading}>Welcome</h4>
         <h2 className={style.main__header}>About Restro</h2>
@@ -25,6 +29,7 @@ const About = () => {
           Get Direction <FontAwesomeIcon icon={faArrowRight} />
         </button>
       </div>
+      </Slide>
     </section>
   );
 };
