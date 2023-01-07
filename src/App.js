@@ -9,6 +9,7 @@ import Discover from "./components/Main/Discover";
 // import GalleryMenu from "./components/Main/GalleryMenu";
 import Customer from "./components/Main/Customer";
 import BookMeal from "./components/Main/BookMeal";
+import "./App.css"
 const App = () => (
   
   <BrowserRouter>
