@@ -9,11 +9,11 @@ const Customer = () => {
       <h3 className={style.customer__heading}>Some</h3>
       <h2 className={style.customer__main}>Our Happy Customers</h2>
       <div className={style.div__el}>
+            {/* This is our review components */}
         <CustomerCard />
-        <CustomerCard />
-        <CustomerCard />
+        {/* <CustomerCard /> */}
+        {/* <CustomerCard /> */}
       </div>
-      <Paging />
     </section>
   );
 };
