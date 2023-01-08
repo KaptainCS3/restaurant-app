@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import style from "../../style/cardcontainer.module.css";
 import Card from "./Card";
-// import Paging from "./Paging";
+import { Fade } from "react-reveal";
 const CardContainer = () => {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
@@ -17,9 +17,9 @@ const CardContainer = () => {
         <h3 className={style.explore}>Explore</h3>
         <div className={style.food__container}>
           <h2 className={style.food__heading}>Our Featured Food</h2>
-          {/* <Paging /> */}
         </div>
       </div>
+      <Fade bottom>
       <motion.div className={style.carousel} ref={carousel}>
         <motion.div
           className={style.inner__carousel}
@@ -50,6 +50,7 @@ const CardContainer = () => {
           </motion.div>
         </motion.div>
       </motion.div>
+      </Fade>
       {/* <div className={style.carousel}>
   
           <Card img="pexels-steve-3789885.jpg"/>
