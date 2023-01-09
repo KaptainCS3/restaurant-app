@@ -1,4 +1,4 @@
-export default [
+const tabs = [
   {
     id: 1,
     links: "Breakfast",
@@ -24,3 +24,5 @@ export default [
     links: "Drinks",
   },
 ];
+
+export default tabs;
