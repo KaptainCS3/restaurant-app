@@ -6,7 +6,7 @@ import Welcome from "./components/Main/Welcome";
 import About from "./components/Main/About";
 import CardContainer from "./components/Main/CardContainer";
 import Discover from "./components/Main/Discover";
-// import GalleryMenu from "./components/Main/GalleryMenu";
+import GalleryMenu from "./components/Main/GalleryMenu";
 import Customer from "./components/Main/Customer";
 import BookMeal from "./components/Main/BookMeal";
 import "./App.css"
@@ -23,7 +23,7 @@ const App = () => (
             <About />
             <CardContainer />
             <Discover />
-            {/* <GalleryMenu /> */}
+            <GalleryMenu />
             <Customer />
             <BookMeal />
             <Footer />
