@@ -1,11 +1,11 @@
+// import from "react-router-dom";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
+import list from "../../list.json";
 import style from "../../style/galleryMenu.module.css";
-import tabs from "../../tabs"
+import tabs from "../../tabs";
 const TabLinks = (props) => {
-  const mapTabs = tabs.map(el =>{
-   return <Link className={style.gallery__links}>{el.links}</Link>
-  })
-  return {mapTabs}
+  return <Link></Link>
 };
 
 export default TabLinks;
