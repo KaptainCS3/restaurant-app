@@ -9,7 +9,7 @@ const Welcome = () => {
       <main>
         <section className={style.LandingPage}>
           {/*content and hero section */}
-          {/* <Fade left> */}
+
           <div className={style.left__container}>
             <h3 className={style.welcome__text}>Discover your taste</h3>
             <h1 className={style.hero__text}>Eat healthy and Natural Food</h1>
@@ -17,7 +17,7 @@ const Welcome = () => {
               Discover Menu <FontAwesomeIcon icon={faArrowRight} />
             </button>
           </div>
-          {/* </Fade> */}
+
           {/* image container */}
           <div className={style.right__container}></div>
           {/* play button section */}
